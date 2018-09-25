@@ -18,6 +18,7 @@
 #import "UtilityViewController.h"
 #import "UIKitsViewController.h"
 #import "SetOperatorsViewController.h"
+#import "LoginViewController.h"
 
 @interface RACIndexController (){
     NSArray<NSArray *> * datasource;
@@ -31,7 +32,7 @@
     [super viewDidLoad];
     datasource = @[@[@"RACSignal",@"RACSubject",@"RACCommand",@"RACTuple",@"RACScheduler"],
                    @[@"Transformation",@"Combination",@"Filter",@"Utility"],
-                   @[@"UIKit",@"SetOperators"]];
+                   @[@"UIKit",@"SetOperators",@"MVVM"]];
 }
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -110,6 +111,9 @@
                     break;
                 case 1:
                     [[self navigationController] pushViewController:[[SetOperatorsViewController alloc] init] animated:true ];
+                    break;
+                case 2:
+                    [[self navigationController] pushViewController:[[LoginViewController alloc] init] animated:true ];
                     break;
                 default:
                     break;

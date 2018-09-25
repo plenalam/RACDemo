@@ -16,6 +16,9 @@
 		736D6FE0215091DC00AE8D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 736D6FDF215091DC00AE8D81 /* main.m */; };
 		736D6FE82150968100AE8D81 /* RACIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = 736D6FE72150968100AE8D81 /* RACIndexController.m */; };
 		739169B12154C54900B8E4C7 /* NSObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739169B02154C54900B8E4C7 /* NSObjectViewController.m */; };
+		739169BB2154E6F300B8E4C7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739169BA2154E6F300B8E4C7 /* LoginViewController.m */; };
+		739169BE2154E70F00B8E4C7 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 739169BD2154E70F00B8E4C7 /* UserInfo.m */; };
+		739169C12154E74200B8E4C7 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 739169C02154E74200B8E4C7 /* LoginViewModel.m */; };
 		73948A2C21532A6700A005B9 /* RACTupleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73948A2B21532A6700A005B9 /* RACTupleViewController.m */; };
 		73948A3721533C6800A005B9 /* RACSchedulerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73948A3621533C6800A005B9 /* RACSchedulerViewController.m */; };
 		73948A3B2153447400A005B9 /* TransformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73948A392153447400A005B9 /* TransformationViewController.m */; };
@@ -47,6 +50,12 @@
 		736D6FE72150968100AE8D81 /* RACIndexController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACIndexController.m; sourceTree = "<group>"; };
 		739169AF2154C54900B8E4C7 /* NSObjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObjectViewController.h; sourceTree = "<group>"; };
 		739169B02154C54900B8E4C7 /* NSObjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObjectViewController.m; sourceTree = "<group>"; };
+		739169B92154E6F300B8E4C7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		739169BA2154E6F300B8E4C7 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		739169BC2154E70F00B8E4C7 /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		739169BD2154E70F00B8E4C7 /* UserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		739169BF2154E74200B8E4C7 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		739169C02154E74200B8E4C7 /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		73948A2A21532A6700A005B9 /* RACTupleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACTupleViewController.h; sourceTree = "<group>"; };
 		73948A2B21532A6700A005B9 /* RACTupleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACTupleViewController.m; sourceTree = "<group>"; };
 		73948A3521533C6800A005B9 /* RACSchedulerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSchedulerViewController.h; sourceTree = "<group>"; };
@@ -147,6 +156,19 @@
 			path = RACDemo;
 			sourceTree = "<group>";
 		};
+		739169B82154E6E600B8E4C7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				739169B92154E6F300B8E4C7 /* LoginViewController.h */,
+				739169BA2154E6F300B8E4C7 /* LoginViewController.m */,
+				739169BC2154E70F00B8E4C7 /* UserInfo.h */,
+				739169BD2154E70F00B8E4C7 /* UserInfo.m */,
+				739169BF2154E74200B8E4C7 /* LoginViewModel.h */,
+				739169C02154E74200B8E4C7 /* LoginViewModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		73948A382153442900A005B9 /* Operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +187,7 @@
 		73948A4521539E2900A005B9 /* Usage */ = {
 			isa = PBXGroup;
 			children = (
+				739169B82154E6E600B8E4C7 /* Login */,
 				73948A492153A33900A005B9 /* UIKitsViewController.h */,
 				73948A4A2153A33900A005B9 /* UIKitsViewController.m */,
 				73948A4C2153A3E100A005B9 /* SetOperatorsViewController.h */,
@@ -266,13 +289,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				736D6FE82150968100AE8D81 /* RACIndexController.m in Sources */,
+				739169BE2154E70F00B8E4C7 /* UserInfo.m in Sources */,
 				7302BC1A2150F9C000CCF111 /* RACCommandViewController.m in Sources */,
 				73948A2C21532A6700A005B9 /* RACTupleViewController.m in Sources */,
 				73948A4121537F3500A005B9 /* FilterViewController.m in Sources */,
 				73948A4B2153A33900A005B9 /* UIKitsViewController.m in Sources */,
 				73948A4E2153A3E100A005B9 /* SetOperatorsViewController.m in Sources */,
 				73948A3B2153447400A005B9 /* TransformationViewController.m in Sources */,
+				739169C12154E74200B8E4C7 /* LoginViewModel.m in Sources */,
 				73948A442153879600A005B9 /* UtilityViewController.m in Sources */,
+				739169BB2154E6F300B8E4C7 /* LoginViewController.m in Sources */,
 				73948A3721533C6800A005B9 /* RACSchedulerViewController.m in Sources */,
 				736D6FE0215091DC00AE8D81 /* main.m in Sources */,
 				73948A3E21536BFA00A005B9 /* CombinationViewController.m in Sources */,
