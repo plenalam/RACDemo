@@ -11,10 +11,12 @@
 		7302BC112150EE9200CCF111 /* RACSignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7302BC102150EE9200CCF111 /* RACSignalViewController.m */; };
 		7302BC142150F41100CCF111 /* RACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7302BC132150F41100CCF111 /* RACSubjectViewController.m */; };
 		7302BC1A2150F9C000CCF111 /* RACCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7302BC192150F9C000CCF111 /* RACCommandViewController.m */; };
+		73053E74215A096500CF4063 /* AFNetworkingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73053E73215A096500CF4063 /* AFNetworkingRequest.m */; };
+		73053E7A215A0A8D00CF4063 /* AFNetworkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73053E79215A0A8D00CF4063 /* AFNetworkingViewController.m */; };
+		73053E80215A262300CF4063 /* RACIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73053E7F215A262300CF4063 /* RACIndexController.m */; };
 		736D6FD2215091D700AE8D81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 736D6FD1215091D700AE8D81 /* AppDelegate.m */; };
 		736D6FDA215091DC00AE8D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736D6FD9215091DC00AE8D81 /* Assets.xcassets */; };
 		736D6FE0215091DC00AE8D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 736D6FDF215091DC00AE8D81 /* main.m */; };
-		736D6FE82150968100AE8D81 /* RACIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = 736D6FE72150968100AE8D81 /* RACIndexController.m */; };
 		739169B12154C54900B8E4C7 /* NSObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739169B02154C54900B8E4C7 /* NSObjectViewController.m */; };
 		739169BB2154E6F300B8E4C7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739169BA2154E6F300B8E4C7 /* LoginViewController.m */; };
 		739169BE2154E70F00B8E4C7 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 739169BD2154E70F00B8E4C7 /* UserInfo.m */; };
@@ -40,6 +42,11 @@
 		7302BC132150F41100CCF111 /* RACSubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubjectViewController.m; sourceTree = "<group>"; };
 		7302BC182150F9C000CCF111 /* RACCommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACCommandViewController.h; sourceTree = "<group>"; };
 		7302BC192150F9C000CCF111 /* RACCommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCommandViewController.m; sourceTree = "<group>"; };
+		73053E72215A096500CF4063 /* AFNetworkingRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingRequest.h; sourceTree = "<group>"; };
+		73053E73215A096500CF4063 /* AFNetworkingRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingRequest.m; sourceTree = "<group>"; };
+		73053E78215A0A8D00CF4063 /* AFNetworkingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingViewController.h; sourceTree = "<group>"; };
+		73053E79215A0A8D00CF4063 /* AFNetworkingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingViewController.m; sourceTree = "<group>"; };
+		73053E7F215A262300CF4063 /* RACIndexController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACIndexController.m; sourceTree = "<group>"; };
 		736D6FCD215091D700AE8D81 /* RACDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736D6FD0215091D700AE8D81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		736D6FD1215091D700AE8D81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,7 +54,6 @@
 		736D6FDE215091DC00AE8D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		736D6FDF215091DC00AE8D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		736D6FE62150968100AE8D81 /* RACIndexController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACIndexController.h; sourceTree = "<group>"; };
-		736D6FE72150968100AE8D81 /* RACIndexController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACIndexController.m; sourceTree = "<group>"; };
 		739169AF2154C54900B8E4C7 /* NSObjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObjectViewController.h; sourceTree = "<group>"; };
 		739169B02154C54900B8E4C7 /* NSObjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObjectViewController.m; sourceTree = "<group>"; };
 		739169B92154E6F300B8E4C7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -120,6 +126,17 @@
 			path = basis;
 			sourceTree = "<group>";
 		};
+		73053E71215A095200CF4063 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				73053E72215A096500CF4063 /* AFNetworkingRequest.h */,
+				73053E73215A096500CF4063 /* AFNetworkingRequest.m */,
+				73053E78215A0A8D00CF4063 /* AFNetworkingViewController.h */,
+				73053E79215A0A8D00CF4063 /* AFNetworkingViewController.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 		736D6FC4215091D700AE8D81 = {
 			isa = PBXGroup;
 			children = (
@@ -150,7 +167,7 @@
 				736D6FDE215091DC00AE8D81 /* Info.plist */,
 				736D6FDF215091DC00AE8D81 /* main.m */,
 				736D6FE62150968100AE8D81 /* RACIndexController.h */,
-				736D6FE72150968100AE8D81 /* RACIndexController.m */,
+				73053E7F215A262300CF4063 /* RACIndexController.m */,
 				7302BC0A2150CAA600CCF111 /* PrefixHeader.pch */,
 			);
 			path = RACDemo;
@@ -187,6 +204,7 @@
 		73948A4521539E2900A005B9 /* Usage */ = {
 			isa = PBXGroup;
 			children = (
+				73053E71215A095200CF4063 /* AFNetworking */,
 				739169B82154E6E600B8E4C7 /* Login */,
 				73948A492153A33900A005B9 /* UIKitsViewController.h */,
 				73948A4A2153A33900A005B9 /* UIKitsViewController.m */,
@@ -288,18 +306,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736D6FE82150968100AE8D81 /* RACIndexController.m in Sources */,
 				739169BE2154E70F00B8E4C7 /* UserInfo.m in Sources */,
 				7302BC1A2150F9C000CCF111 /* RACCommandViewController.m in Sources */,
 				73948A2C21532A6700A005B9 /* RACTupleViewController.m in Sources */,
 				73948A4121537F3500A005B9 /* FilterViewController.m in Sources */,
 				73948A4B2153A33900A005B9 /* UIKitsViewController.m in Sources */,
 				73948A4E2153A3E100A005B9 /* SetOperatorsViewController.m in Sources */,
+				73053E7A215A0A8D00CF4063 /* AFNetworkingViewController.m in Sources */,
 				73948A3B2153447400A005B9 /* TransformationViewController.m in Sources */,
 				739169C12154E74200B8E4C7 /* LoginViewModel.m in Sources */,
 				73948A442153879600A005B9 /* UtilityViewController.m in Sources */,
+				73053E74215A096500CF4063 /* AFNetworkingRequest.m in Sources */,
 				739169BB2154E6F300B8E4C7 /* LoginViewController.m in Sources */,
 				73948A3721533C6800A005B9 /* RACSchedulerViewController.m in Sources */,
+				73053E80215A262300CF4063 /* RACIndexController.m in Sources */,
 				736D6FE0215091DC00AE8D81 /* main.m in Sources */,
 				73948A3E21536BFA00A005B9 /* CombinationViewController.m in Sources */,
 				7302BC112150EE9200CCF111 /* RACSignalViewController.m in Sources */,

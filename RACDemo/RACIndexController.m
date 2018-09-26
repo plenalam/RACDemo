@@ -19,6 +19,7 @@
 #import "UIKitsViewController.h"
 #import "SetOperatorsViewController.h"
 #import "LoginViewController.h"
+#import "AFNetworkingViewController.h"
 
 @interface RACIndexController (){
     NSArray<NSArray *> * datasource;
@@ -32,7 +33,7 @@
     [super viewDidLoad];
     datasource = @[@[@"RACSignal",@"RACSubject",@"RACCommand",@"RACTuple",@"RACScheduler"],
                    @[@"Transformation",@"Combination",@"Filter",@"Utility"],
-                   @[@"UIKit",@"SetOperators",@"MVVM"]];
+                   @[@"UIKit",@"SetOperators",@"MVVM",@"AFNetworking"]];
 }
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -88,10 +89,10 @@
         case 1:{
             switch ([indexPath row]) {
                 case 0:
-                     [[self navigationController] pushViewController:[[TransformationViewController alloc] init] animated:true ];
+                    [[self navigationController] pushViewController:[[TransformationViewController alloc] init] animated:true ];
                     break;
                 case 1:
-                     [[self navigationController] pushViewController:[[CombinationViewController alloc] init] animated:true ];
+                    [[self navigationController] pushViewController:[[CombinationViewController alloc] init] animated:true ];
                     break;
                 case 2:
                     [[self navigationController] pushViewController:[[FilterViewController alloc] init] animated:true ];
@@ -114,6 +115,9 @@
                     break;
                 case 2:
                     [[self navigationController] pushViewController:[[LoginViewController alloc] init] animated:true ];
+                    break;
+                case 3:
+                    [[self navigationController] pushViewController:[[AFNetworkingViewController alloc] init] animated:true ];
                     break;
                 default:
                     break;
